@@ -2,7 +2,13 @@ import styled from "styled-components";
 
 export const NewTaskFormContainer = styled.form`
     display: flex;
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
     gap: 1rem;
+    margin-top: -1.5rem;
+    justify-content: center;
+    align-items: center;
     input {
         flex: 1;
         border-radius: 6px;
