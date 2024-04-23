@@ -1,5 +1,6 @@
 import { Header } from "../Header";
 import { NewTask } from "../NewTask";
+import { SummaryTasks } from "../SummaryTasks";
 
 
 
@@ -8,6 +9,7 @@ export function Tasks() {
         <div>
             <Header />
             <NewTask />
+            <SummaryTasks />
         </div>
     )
 }
